@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+//Hoja de estilos 
+import "./estilo.css"
+// componentes creados 
+
+import ComponenteApp from  "./ComponenteApp"
+
+
+
+
+
+const divRoot = document.querySelector('#root');
+
+
+ReactDOM.render(<ComponenteApp valor_contador = {0}/>, divRoot);

@@ -1,0 +1,11 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+//Hoja de estilos 
+import "./estilo.css"
+
+const saludo = <h1>Hola Mundo Villavicencio</h1>;
+
+const divRoot = document.querySelector('#root');
+
+ReactDOM.render(saludo, divRoot);
